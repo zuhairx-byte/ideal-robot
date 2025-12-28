@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 14px;
+            background: #4CAF50;
+            border: none;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Donate for a Cause
+</header>
+
+<div class="container">
+    <h2>Make a Donation</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <label for="amount">Donation Amount ($)</label>
+        <input type="number" id="amount" name="amount" min="1" placeholder="Enter amount" required>
+
+        <button type="submit">Donate Now</button>
+    </form>
+</div>
+
+<footer>
+    Thank you for your support!
+</footer>
+
+</body>
+</html>
